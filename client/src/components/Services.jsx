@@ -13,7 +13,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 
 const Services = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex flex-row justify-center items-center h-screen gap-20">
 
       <div className="p-5 sm:w-97 w-full max-w-md pl-4 flex flex-col justify-start items-start blue-glassmorphism">
         <div className="mb-4">
