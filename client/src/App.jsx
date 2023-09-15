@@ -1,4 +1,5 @@
 import { Navbar,Welcome,Services } from "./components"
+import Hero from "./components/Hero"
 
 const App = () => {
   return (
@@ -6,7 +7,7 @@ const App = () => {
      <div className="gradient-bg-welcome">
       <div className="flex flex-col gap-28">
         <Navbar />
-        <Welcome />
+        <Hero />
         
       </div>
       <Services />
